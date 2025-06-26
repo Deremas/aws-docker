@@ -17,5 +17,5 @@ COPY server ./server
 COPY package*.json ./
 RUN npm install --omit=dev
 
-EXPOSE 3002
+EXPOSE 2345
 CMD ["node", "server/index.js"]

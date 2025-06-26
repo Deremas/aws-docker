@@ -1,0 +1,40 @@
+{
+  "name": "aws-browser-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "proxy": "http://localhost:2345",
+  "scripts": {
+    "start": "node server/index.js",
+    "start-client": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.835.0",
+    "@aws-sdk/client-ec2": "^3.836.0",
+    "@aws-sdk/client-s3": "^3.837.0",
+    "@aws-sdk/client-sns": "^3.835.0",
+    "@aws-sdk/client-sqs": "^3.835.0",
+    "@aws-sdk/client-sts": "^3.835.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.2",
+    "aws-sdk": "^2.1420.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
